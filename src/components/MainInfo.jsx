@@ -1,12 +1,12 @@
 const MainInfo = () => (
-    <div className="md:h-[500px] bg-white dark:bg-slate-900">
+    <div className="md:h-[430px] bg-white dark:bg-slate-900">
         <div className=" text-black dark:text-gray-100">
             <div className="flex justify-between mx-8 pt-10">
                 <h4>អត្ថបទពេញនិយមប្រចាំខែ</h4>
                 <h4>មើល​បន្ថែម​ទៀត</h4>
             </div>
         </div>
-        <div className="mt-8 mx-8 flex justify-between">
+        <div className="mt-4 mx-8 flex justify-between">
             <div className="h-[350px] w-[285px] rounded-xl shadow-2xl hover:scale-95 transform duration-300 bg-white dark:bg-gray-700">
                 <div>
                     <img className="rounded-t-xl" src="https://tech-cambodia.com/cms/assets/53c9e5be-7927-49c6-ae35-5e782af744a1" alt="" />

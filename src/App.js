@@ -5,14 +5,20 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
-      <MainInfo />
-      <MainInfo />
-      <MainInfo />
-      <MainInfo />
-      <Footer />
+    <div className="flex justify-center">
+      <div>
+        <Navbar />
+          <div className="flex justify-center">
+            <div className="App w-[1250px]">
+              <Main />
+              <MainInfo />
+              <MainInfo />
+              <MainInfo />
+              <MainInfo />
+            </div>
+          </div>
+        <Footer />
+      </div>
     </div>
   );
 }
