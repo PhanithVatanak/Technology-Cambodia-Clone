@@ -12,7 +12,7 @@ const Footer = () => (
                 </div>
             </div>
         </div>
-        <div className="flex justify-center bg-blue-500 text-white relative w-screen">
+        <div className="flex justify-center bg-gray-200 dark:bg-slate-800 text-black dark:text-gray-300 relative w-screen">
             <div className="h-[330px]">
                 <div className="ml-20 flex justify-between pt-7 w-[1250px]">
                     <div>
