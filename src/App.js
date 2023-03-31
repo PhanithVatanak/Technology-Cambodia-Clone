@@ -9,7 +9,7 @@ function App() {
       <div>
         <Navbar />
           <div className="flex justify-center">
-            <div className="App xl:w-[1250px] lg:w-[1020px] md:w-[760px]">
+            <div className="App xl:w-[1250px] lg:w-[1020px] md:w-[760px] sm:w-[600px]">
               <Main />
               <MainInfo />
               <MainInfo />
