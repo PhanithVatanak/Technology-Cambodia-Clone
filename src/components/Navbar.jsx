@@ -3,8 +3,8 @@ import React from "react";
 
 const Navbar = () => (
     <nav className="bg-gray-200 dark:bg-gray-900 h-20 flex justify-center  text-black dark:text-gray-300 text-md ">
-        <div className="hidden lg:flex w-[1250px]">
-            <div className="ml-6 flex-none cursor-pointer">
+        <div className="hidden md:w-[890px] lg:flex lg:justify-center lg:w-[1000px] xl:flex xl:w-[1250px]">
+            <div className="xl:ml-6 flex-none cursor-pointer">
                 <img className="h-20 hover:bg-blue-300 hover:rounded-[50%]" src="https://tech-cambodia.com/logo.png" alt="" />
             </div>
             <div className="flex justify-center items-center flex-auto w-64">
@@ -22,7 +22,7 @@ const Navbar = () => (
                     </ul>
                 </div>
             </div>
-            <div className="flex justify-center items-center mr-16">
+            <div className="flex justify-center items-center">
                 <div className="flex justify-center items-center">
                     <div className="mx-2 cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">

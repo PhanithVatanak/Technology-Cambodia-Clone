@@ -13,8 +13,8 @@ const Footer = () => (
             </div>
         </div>
         <div className="flex justify-center bg-gray-200 dark:bg-slate-800 text-black dark:text-gray-300 relative w-screen">
-            <div className="h-[330px]">
-                <div className="ml-20 flex justify-between pt-7 w-[1250px]">
+            <div className="h-[330px] lg:w-[1000px]  xl:w-[1250px]">
+                <div className="flex justify-between pt-7 lg:w-[1000px] xl:w-[1250px]">
                     <div>
                         <h4 className="text-2xl font-bold py-7">ស្វែងយល់អំពីពួកយើង</h4>
                         <div>
